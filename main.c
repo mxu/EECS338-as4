@@ -10,6 +10,11 @@
  * - invokes bus processes
  * - invokes customer processes
  * - destroys shared memory variables
+ *
+ * Agent comes to work before all other processes
+ * Invoke a bus process every BUS_INTERVAL seconds
+ * Invoke up to 14 customer processes up to
+ * CUST_INTERVAL seconds apart from each other
  */
 
 #include <sys/wait.h>

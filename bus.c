@@ -19,6 +19,7 @@ int main(int argc, char *argv[]) {
 	printInfo("Initializing Bus");
 	/* initialize shared resource variables */
 	locateResources(&semid, &shmid, &shm);
+	
 	/* wait for mutex */
 	semWait(semid, SEM_MUTEX);
 	/* increment depature times */

@@ -9,14 +9,14 @@
 #include <sys/shm.h>
 #include <sys/sem.h>
 
-#define SEM_MUTEX       0
-#define SEM_LINE        1
-#define SEM_AGENT       2
-#define SEM_TICKET      3
-#define SEM_NBUS        4
-#define SEM_SIZE        5
-#define BUS_INTERVAL    30
-#define CUST_INTERVAL   8
+#define SEM_MUTEX       0           /* mutex to lock shared variables */
+#define SEM_LINE        1           /* blocks customers in line */
+#define SEM_AGENT       2           /* blocks agent until needed by customer */
+#define SEM_TICKET      3           /* blocks customer until ticket is ready */
+#define SEM_NBUS        4           /* blocks customers waiting for next bus */
+#define SEM_SIZE        5           /* number of semaphores */
+#define BUS_INTERVAL    30          /* seconds between each bus departure */
+#define CUST_INTERVAL   7           /* max seconds between each customer */
 
 /* data structures ************************************************************/
 union semun {
@@ -95,13 +95,13 @@ void semSignal(int semid, int sem) {
 }
 
 void printHeader() {
-    printf(" %-8s | %-8s | %s\n", "PROCESS", "PID", "STATUS");
-    printf("----------+----------+----------\n");
+    printf(" %-10s | %-8s | %s\n", "PROCESS", "PID", "STATUS");
+    printf("------------+----------+----------\n");
     fflush(stdin);
 }
 
 void printInfo(char *msg) {
-    printf(" %-8s | %-8d | %s\n", pname, pid, msg);
+    printf(" %-10s | %-8d | %s\n", pname, pid, msg);
     fflush(stdin);
 }
 

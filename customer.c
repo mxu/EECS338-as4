@@ -37,7 +37,7 @@ int main(int argc, char *argv[]) {
 	
 	/* get the ticket */
 	myTicket = shm->ticket;
-	sprintf(buf, "Received ticket for %s in seat %d departing at %ld",
+	sprintf(buf, "My Ticket: [Name:%s Seat:%d Depart:%ld]",
 		myTicket.name, myTicket.seat, myTicket.depart);
 	printInfo(buf);
 
