@@ -1,0 +1,137 @@
+ CUST 1     | 14880    | Initializing Customer
+ CUST 1     | 14880    | My turn in line
+ CUST 1     | 14880    | My Ticket: [Name:CUST 1 Seat:1 Depart:30]
+ CUST 1     | 14880    | Boarding the bus
+ CUST 2     | 14881    | Initializing Customer
+ CUST 2     | 14881    | My turn in line
+ CUST 2     | 14881    | My Ticket: [Name:CUST 2 Seat:2 Depart:30]
+ CUST 2     | 14881    | Boarding the bus
+ CUST 3     | 14882    | Initializing Customer
+ CUST 3     | 14882    | My turn in line
+ CUST 3     | 14882    | My Ticket: [Name:CUST 3 Seat:3 Depart:30]
+ CUST 3     | 14882    | Boarding the bus
+ CUST 4     | 14883    | Initializing Customer
+ CUST 4     | 14883    | My turn in line
+ CUST 4     | 14883    | My Ticket: [Name:CUST 4 Seat:4 Depart:30]
+ CUST 4     | 14883    | Boarding the bus
+ CUST 5     | 14884    | Initializing Customer
+ CUST 5     | 14884    | My turn in line
+ CUST 5     | 14884    | My Ticket: [Name:CUST 5 Seat:5 Depart:30]
+ CUST 5     | 14884    | Boarding the bus
+ CUST 6     | 14885    | Initializing Customer
+ CUST 6     | 14885    | My turn in line
+ CUST 6     | 14885    | My Ticket: [Name:CUST 6 Seat:6 Depart:30]
+ CUST 6     | 14885    | Boarding the bus
+ CUST 7     | 14886    | Initializing Customer
+ CUST 7     | 14886    | My turn in line
+ CUST 7     | 14886    | My Ticket: [Name:CUST 7 Seat:7 Depart:30]
+ CUST 7     | 14886    | Boarding the bus
+ BUS 1/5    | 14879    | Initializing Bus
+ BUS 1/5    | 14879    | Departing at 30
+ BUS 1/5    | 14879    | 7 seats available
+ BUS 1/5    | 14879    | Departing
+ CUST 8     | 14912    | Initializing Customer
+ CUST 8     | 14912    | My turn in line
+ CUST 8     | 14912    | My Ticket: [Name:CUST 8 Seat:1 Depart:60]
+ CUST 8     | 14912    | Boarding the bus
+ CUST 9     | 14913    | Initializing Customer
+ CUST 9     | 14913    | My turn in line
+ CUST 9     | 14913    | My Ticket: [Name:CUST 9 Seat:2 Depart:60]
+ CUST 9     | 14913    | Boarding the bus
+ CUST 10    | 14915    | Initializing Customer
+ CUST 10    | 14915    | My turn in line
+ CUST 10    | 14915    | My Ticket: [Name:CUST 10 Seat:3 Depart:60]
+ CUST 10    | 14915    | Boarding the bus
+ CUST 11    | 14916    | Initializing Customer
+ CUST 11    | 14916    | My turn in line
+ CUST 11    | 14916    | My Ticket: [Name:CUST 11 Seat:4 Depart:60]
+ CUST 11    | 14916    | Boarding the bus
+ CUST 12    | 14918    | Initializing Customer
+ CUST 12    | 14918    | My turn in line
+ CUST 12    | 14918    | My Ticket: [Name:CUST 12 Seat:5 Depart:60]
+ CUST 12    | 14918    | Boarding the bus
+ CUST 13    | 14920    | Initializing Customer
+ CUST 13    | 14920    | My turn in line
+ CUST 13    | 14920    | My Ticket: [Name:CUST 13 Seat:6 Depart:60]
+ CUST 13    | 14920    | Boarding the bus
+ CUST 14    | 14921    | Initializing Customer
+ CUST 14    | 14921    | My turn in line
+ CUST 14    | 14921    | My Ticket: [Name:CUST 14 Seat:7 Depart:60]
+ CUST 14    | 14921    | Boarding the bus
+ BUS 2/5    | 14910    | Initializing Bus
+ BUS 2/5    | 14910    | Departing at 60
+ BUS 2/5    | 14910    | 7 seats available
+ BUS 2/5    | 14910    | Departing
+ CUST 16    | 14924    | Initializing Customer
+ CUST 16    | 14924    | My turn in line
+ CUST 16    | 14924    | My Ticket: [Name:CUST 16 Seat:1 Depart:90]
+ CUST 16    | 14924    | Boarding the bus
+ CUST 15    | 14923    | Initializing Customer
+ CUST 15    | 14923    | My turn in line
+ CUST 15    | 14923    | My Ticket: [Name:CUST 15 Seat:2 Depart:90]
+ CUST 15    | 14923    | Boarding the bus
+ CUST 17    | 14925    | Initializing Customer
+ CUST 17    | 14925    | My turn in line
+ CUST 17    | 14925    | My Ticket: [Name:CUST 17 Seat:3 Depart:90]
+ CUST 17    | 14925    | Boarding the bus
+ CUST 18    | 14926    | Initializing Customer
+ CUST 18    | 14926    | My turn in line
+ CUST 18    | 14926    | My Ticket: [Name:CUST 18 Seat:4 Depart:90]
+ CUST 18    | 14926    | Boarding the bus
+ CUST 19    | 14927    | Initializing Customer
+ CUST 19    | 14927    | My turn in line
+ CUST 19    | 14927    | My Ticket: [Name:CUST 19 Seat:5 Depart:90]
+ CUST 19    | 14927    | Boarding the bus
+ CUST 20    | 14928    | Initializing Customer
+ CUST 20    | 14928    | My turn in line
+ CUST 20    | 14928    | My Ticket: [Name:CUST 20 Seat:6 Depart:90]
+ CUST 20    | 14928    | Boarding the bus
+ CUST 21    | 14929    | Initializing Customer
+ CUST 21    | 14929    | My turn in line
+ CUST 21    | 14929    | My Ticket: [Name:CUST 21 Seat:7 Depart:90]
+ CUST 21    | 14929    | Boarding the bus
+ BUS 3/5    | 14922    | Initializing Bus
+ BUS 3/5    | 14922    | Departing at 90
+ BUS 3/5    | 14922    | 7 seats available
+ BUS 3/5    | 14922    | Departing
+ BUS 4/5    | 14930    | Initializing Bus
+ BUS 4/5    | 14930    | Departing at 120
+ BUS 4/5    | 14930    | 7 seats available
+ BUS 4/5    | 14930    | Departing
+ PROCESS    | PID      | STATUS
+------------+----------+----------
+ MAIN       | 14877    | Initializing bus service
+ MAIN       | 14877    | Invoking agent
+ MAIN       | 14877    | Invoking bus
+ MAIN       | 14877    | Invoking customer
+ MAIN       | 14877    | Invoking customer
+ MAIN       | 14877    | Invoking customer
+ MAIN       | 14877    | Invoking customer
+ MAIN       | 14877    | Invoking customer
+ MAIN       | 14877    | Invoking customer
+ MAIN       | 14877    | Invoking customer
+ MAIN       | 14877    | Invoking bus
+ MAIN       | 14877    | Invoking customer
+ MAIN       | 14877    | Invoking customer
+ MAIN       | 14877    | Invoking customer
+ MAIN       | 14877    | Invoking customer
+ MAIN       | 14877    | Invoking customer
+ MAIN       | 14877    | Invoking customer
+ MAIN       | 14877    | Invoking customer
+ MAIN       | 14877    | Invoking bus
+ MAIN       | 14877    | Invoking customer
+ MAIN       | 14877    | Invoking customer
+ MAIN       | 14877    | Invoking customer
+ MAIN       | 14877    | Invoking customer
+ MAIN       | 14877    | Invoking customer
+ MAIN       | 14877    | Invoking customer
+ MAIN       | 14877    | Invoking customer
+ MAIN       | 14877    | Invoking bus
+ MAIN       | 14877    | Invoking bus
+ MAIN       | 14877    | Terminating agent
+ MAIN       | 14877    | Releasing shared resources
+ MAIN       | 14877    | Terminating bus service
+ BUS 5/5    | 14939    | Initializing Bus
+ BUS 5/5    | 14939    | Departing at 150
+ BUS 5/5    | 14939    | 7 seats available
+ BUS 5/5    | 14939    | Departing
