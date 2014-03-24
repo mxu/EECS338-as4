@@ -102,8 +102,8 @@ int main(int argc, char *argv[]) {
 
         /* reset current and next bus customer counts */
         cbCustomers = nbCustomers;
-        nbCustomers = 0;
-        while(nbCustomers < 7 && sleepTime > CUST_INTERVAL) {
+        nbCustomers = numBusses == maxBusses - 1 ? 7 : 0;
+        while(cbCustomers < 7 && nbCustomers < 7 && sleepTime > CUST_INTERVAL) {
             numCustomers++;
             if(cbCustomers < 7)
                 cbCustomers++;
