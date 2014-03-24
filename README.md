@@ -1,15 +1,8 @@
 # EECS338: Operating Systems
-
 ## Assignment 4: Bus Service Problem
-
-## Mike Xu
-
-## mxx17
-
-<hr>
+## Mike Xu (mxx17)
 
 ## Features
-
 Implements the Bus Service Problem using Linux System V semaphores and shared memory
 
 * Main process initializes shared memory structures and invokes other processes
@@ -17,10 +10,7 @@ Implements the Bus Service Problem using Linux System V semaphores and shared me
 * Bus process increments depature times, boards waiting customers, then departs
 * Customer process waits in line for a ticket, then boards the bus
 
-<hr>
-
-## How to build and rn
-
+## How to build and run
 ```
 $> make clean
 $> make
